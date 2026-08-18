@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lusters_doorbells:block/doorbell"
+    },
+    "facing=east": {
+      "model": "lusters_doorbells:block/doorbell",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lusters_doorbells:block/doorbell",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lusters_doorbells:block/doorbell",
+      "y": 270
+    }
+  }
+}

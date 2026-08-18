@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "lusters_doorbells:doorbell"
+    },
+    "title": {
+      "translate": "advancements.doorbell_achivement.title"
+    },
+    "description": {
+      "translate": "advancements.doorbell_achivement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "doorbell_achivement_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "lusters_doorbells:doorbell"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

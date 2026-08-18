@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lusters_doorbells:item/doorbell"
+  },
+  "render_type": "translucent"
+}

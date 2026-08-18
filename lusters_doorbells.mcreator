@@ -1,0 +1,132 @@
+{
+  "mod_elements": [
+    {
+      "name": "Doorbell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorbell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lusters_doorbells/models/block/doorbell.json",
+          "src/main/resources/data/lusters_doorbells/loot_table/blocks/doorbell.json",
+          "src/main/resources/assets/lusters_doorbells/blockstates/doorbell.json",
+          "src/main/java/net/mcreator/lustersdoorbells/block/DoorbellBlock.java",
+          "src/main/resources/assets/lusters_doorbells/models/item/doorbell.json"
+        ]
+      }
+    },
+    {
+      "name": "Doorbellreceipt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorbellreceipt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lusters_doorbells/recipe/doorbellreceipt.json"
+        ]
+      }
+    },
+    {
+      "name": "DoorbellAchivement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorbell_achivement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lusters_doorbells/advancement/doorbell_achivement.json"
+        ]
+      }
+    },
+    {
+      "name": "Doorbellaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorbellaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/lustersdoorbells/procedures/DoorbellactionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Doorbellvkladka",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorbellvkladka",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.lusters_doorbells.doorbell": "Дверной звонок",
+      "advancements.doorbell_achivement.descr": "Поставьте дверной звонок!",
+      "advancements.doorbell_achivement.title": "Кто там?",
+      "item_group.lusters_doorbells.doorbellvkladka": "Luster\u0027s Doorbells"
+    },
+    "ru_ru": {
+      "block.lusters_doorbells.doorbell": "Дверной звонок",
+      "advancements.doorbell_achivement.descr": "Поставьте дверной звонок!",
+      "advancements.doorbell_achivement.title": "Кто там?",
+      "item_group.lusters_doorbells.doorbellvkladka": "Luster\u0027s Doorbells"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/lustersdoorbells/init/LustersDoorbellsModBlocks.java",
+      "src/main/java/net/mcreator/lustersdoorbells/init/LustersDoorbellsModItems.java",
+      "src/main/java/net/mcreator/lustersdoorbells/init/LustersDoorbellsModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/lustersdoorbells/LustersDoorbellsMod.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lusters_doorbells",
+    "modName": "Luster\u0027s Doorbells",
+    "version": "1.0.0",
+    "description": "Add doorbell to your house!",
+    "author": "LusterOK",
+    "license": "Public Domain",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.lustersdoorbells"
+  },
+  "mcreatorVersion": 202600233518
+}
