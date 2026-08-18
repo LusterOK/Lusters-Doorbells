@@ -3,8 +3,8 @@
     "default": {
       "name": "default",
       "map": {
-        "0": "base",
-        "1": "button"
+        "2": "base",
+        "3": "button"
       }
     }
   }

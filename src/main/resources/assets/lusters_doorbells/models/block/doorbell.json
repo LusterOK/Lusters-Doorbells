@@ -3,8 +3,8 @@
   "textures": {
     "all": "lusters_doorbells:block/base",
     "particle": "lusters_doorbells:block/base",
-    "0": "lusters_doorbells:block/base",
-    "1": "lusters_doorbells:block/button"
+    "2": "lusters_doorbells:block/base",
+    "3": "lusters_doorbells:block/button"
   },
   "render_type": "solid"
 }

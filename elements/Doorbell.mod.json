@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "states": [],
     "animations": [],
-    "itemTexture": "doorbell",
+    "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "STONE",
     "leavesParticleChance": 0.0,
