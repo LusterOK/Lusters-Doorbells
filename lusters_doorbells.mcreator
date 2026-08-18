@@ -87,9 +87,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.lusters_doorbells.doorbell": "Дверной звонок",
-      "advancements.doorbell_achivement.descr": "Поставьте дверной звонок!",
-      "advancements.doorbell_achivement.title": "Кто там?",
+      "block.lusters_doorbells.doorbell": "Doorbell",
+      "advancements.doorbell_achivement.descr": "Place a doorbell!",
+      "advancements.doorbell_achivement.title": "Who\u0027s there?",
       "item_group.lusters_doorbells.doorbellvkladka": "Luster\u0027s Doorbells"
     },
     "ru_ru": {
