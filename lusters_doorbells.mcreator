@@ -116,16 +116,18 @@
   "workspaceSettings": {
     "modid": "lusters_doorbells",
     "modName": "Luster\u0027s Doorbells",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Add doorbell to your house!",
     "author": "LusterOK",
-    "license": "Public Domain",
+    "websiteURL": "https://github.com/LusterOK/Lusters-Doorbells",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created with love.",
     "modElementsPackage": "net.mcreator.lustersdoorbells"
   },
   "mcreatorVersion": 202600233518
